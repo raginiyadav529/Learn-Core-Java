@@ -8,7 +8,7 @@ public class Demo2 {
 
         Thread mainThread = Thread.currentThread();
 
-        Thread t1 = new Thread(()->{  // We're coupling task with thread mechanism.
+        Thread t1 = new Thread(()->{ // We're coupling task with thread mechanism.
             try {
                 Thread mainThread1 = Thread.currentThread();
                 Thread.sleep(2000);
