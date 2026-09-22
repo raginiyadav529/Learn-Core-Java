@@ -32,7 +32,7 @@ public class Demo {
     }
 
 
-   /* synchronized   void increment (){  // critical section
+   /* synchronized   void increment (){  // critical section --> lock acquires
         count ++;
     }
 */
